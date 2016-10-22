@@ -40,3 +40,7 @@
 .hljs-default .hljs {
   background-color: #F8F8FF;
 }
+
+img {
+  width: 100%;
+}
