@@ -1,7 +1,7 @@
 require 'objspace'
 require 'pp'
 
-puts "OBJECT SIZE"
+print "OBJECT SIZE: "
 
 size = ObjectSpace.memsize_of(Object::new)
 pp size
@@ -22,9 +22,10 @@ counts = allocate_count {
 
 counts.delete(:FREE)
 counts.delete(:TOTAL)
+counts.delete_if {|_,v| v == 0}
 
-puts "COUNTS"
+print "COUNTS: "
 pp counts
 
-puts "MATH:"
+print "MATH: "
 pp (counts.values.inject(0, :+) * 40)
