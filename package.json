@@ -1,0 +1,24 @@
+{
+  "name": "railsclub2016",
+  "version": "1.0.0",
+  "description": "## up and running",
+  "main": "index.js",
+  "dependencies": {
+    "live-server": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleygwilliams/railsclub2016.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleygwilliams/railsclub2016/issues"
+  },
+  "homepage": "https://github.com/ashleygwilliams/railsclub2016#readme"
+}
