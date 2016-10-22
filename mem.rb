@@ -21,6 +21,7 @@ counts = allocate_count {
 }
 
 counts.delete(:FREE)
+counts.delete(:TOTAL)
 
 puts "COUNTS"
 pp counts
