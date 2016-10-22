@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900|Ubuntu+Mono');
+
+.remark-slide-content {
+  color: white;
+  background-color: #800000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.remark-slide-content p, .remark-slide-content li {
+  font-size: 2em;
+}
+
+.remark-slide-content li {
+  margin: 20px 0;
+}
+
+.remark-slide-content h1 {
+  font-size: 4em;
+}
+
+.remark-slide-content a,
+.remark-slide-content a:visited,
+.remark-slide-content a:active {
+  color: white;
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+  background-color: #F8F8FF;
+  color: #444; 
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.remark-code-line {
+  background-color: #F8F8FF;
+  font-size: 1.5em;
+}
+
+.hljs-default .hljs {
+  background-color: #F8F8FF;
+}
