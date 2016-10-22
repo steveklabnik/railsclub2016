@@ -3,18 +3,7 @@
   <head>
     <title>Exploring Ruby through Rust: RailsClub 2016</title>
     <meta charset="utf-8">
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style>
+    <link href="styles.css" rel="stylesheet"/>
   </head>
   <body>
     <textarea id="source">
@@ -22,27 +11,24 @@
 class: center, middle
 
 # Exploring Ruby through Rust
-
+# 🔴💎🗺⚙🦀
 by [@steveklabnik](https://twitter.com/steveklabnik)
 
 ---
+class: middle
 
-# Ru`*`
+# Ru*
 
-1. Ruby
-2. Rust
+## 1. Ruby 🔴💎
+## 2. Rust ⚙🦀
 
----
-
-# Ru`*`
-
-1. Ruby
-2. Rust
-3. ... ру́сский
+--
+## 3. ... ру́сский 🇷🇺
 
 ---
+class: middle
 
-# Hold on!
+# ✋ Hold on!
 
 We're gonna talk about a lot of different stuff.
 
@@ -50,16 +36,22 @@ We're gonna talk about a lot of different stuff.
 
 # Let's talk about Rust
 
-* I really love Rust
-* It's cool if you don't
-* This talk is about Rust, and Ruby, and C. And having fun.
+* I really love Rust 💖
+* It's cool if you don't 🙅🏾
+* This talk is about Rust, and Ruby, and C. And having fun. 😎
 
 ---
+class: middle
 
-# Rust demo
+# ⚙🦀 Rust 
 
-* String.blank: `/\A[[:space:]]*\z/ === "Привет"`
-* chars.rs
+* String.blank
+
+```ruby
+/\A[[:space:]]*\z/ === "Привет"
+```
+
+* `chars.rs`
 
 ---
 
@@ -73,6 +65,7 @@ Let's talk about Ruby internals.
 * `VALUE`
 
 ---
+class: middle
 
 # What happens when we iterate in Ruby?
 
@@ -82,47 +75,58 @@ Let's talk about Ruby internals.
 
 # Let's talk about Rust!
 
-* char
-* no GC
-* optimizations
-* stack vs heap allocation
+* char 🔤
+* no GC 🗑
+* optimizations ⚡
+* stack vs heap allocation 📚
 
 ---
+class: middle
 
 # Let's talk about C and Ruby!
 
-* https://github.com/SamSaffron/fast_blank
+* [fast blank](https://github.com/SamSaffron/fast_blank)
 * cexts &amp; FFI
 
 ---
+class: middle, center
 
-# Rust + Gems
-
-DEMO TIME
+# ⚙ Rust + Gems 💎
+# ✨ DEMO TIME ✨
 
 ---
+class: middle
 
 # Let's do something silly
+#😜😜😜
 
 I told you this talk wasn't about serious stuff.
-
 But I've been so serious.
 
 ---
+class: center, middle
+
+# <blink><strong>ANNOUNCING STEVE"S FORK OF RUBY</strong></blink>
+
+# 🎉🎉🎉
+---
+class: middle, center
+
+# <blink><strong>ANNOUNCING STEVE"S FORK OF RUBY</strong></blink>
+
+# 🍴🍴🍴
+
+---
+class: middle
 
 class: center, middle
 
 # <blink><strong>ANNOUNCING STEVE"S FORK OF RUBY</strong></blink>
 
----
-
-class: center, middle
-
-# <blink><strong>ANNOUNCING STEVE"S FORK OF RUBY</strong></blink>
-
-(It has four commits: https://github.com/ruby/ruby/compare/trunk...steveklabnik:rust )
+([It has four commits](https://github.com/ruby/ruby/compare/trunk...steveklabnik:rust))
 
 ---
+class: middle
 
 class: center, middle
 
@@ -130,7 +134,7 @@ class: center, middle
 
 Go forth, do fun stuff, enjoy computers
 
-❤️❤️❤️
+#❤️❤️❤️
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
