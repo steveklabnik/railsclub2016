@@ -26,21 +26,37 @@
 
 .remark-code, .remark-inline-code {
   font-family: 'Ubuntu Mono';
-  background-color: #F8F8FF;
+  background-color: #DCDCDC;
   color: #444; 
   padding: 10px 20px;
   margin: 10px 0;
 }
 
 .remark-code-line {
-  background-color: #F8F8FF;
+  background-color: #DCDCDC;
   font-size: 1.5em;
 }
 
 .hljs-default .hljs {
-  background-color: #F8F8FF;
+  background-color: #DCDCDC;
 }
 
 img {
   width: 100%;
+}
+
+.remark-slide-content .sub {
+  position: relative;
+  top: -60px;
+  font-size: 0.75em;
+}
+
+.bump {
+  display: box;
+  position: relative;
+  top: -80px;
+}
+
+.remark-slide-number {
+  font-family: monospace;
 }
